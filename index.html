@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="contact-card">
+        <div class="profile">
+            <img src="https://via.placeholder.com/120" alt="Profile Picture">
+            <h1>John Doe</h1>
+            <p>Web Developer</p>
+        </div>
+
+        <div class="contact-info">
+            <div class="info">
+                <span>📧</span>
+                <p id="email">john@example.com</p>
+            </div>
+
+            <div class="info">
+                <span>📱</span>
+                <p id="phone">+91 98765 43210</p>
+            </div>
+
+            <div class="info">
+                <span>📍</span>
+                <p>Chennai, India</p>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button onclick="sendEmail()">Email</button>
+            <button onclick="callPhone()">Call</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
